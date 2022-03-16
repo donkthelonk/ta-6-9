@@ -9,11 +9,18 @@ Module Program
         'Console.ReadLine()
 
         'Video 8 - Variables
-        Dim myNum As Integer = 5
-        Dim myDouble As Double = 5.4
-        Dim myString As String = "Hello World!"
-        Dim myBool As Boolean = False
-        Console.WriteLine(myNum.ToString())
+        'Dim myNum As Integer = 5
+        'Dim myDouble As Double = 5.4
+        'Dim myString As String = "Hello World!"
+        'Dim myBool As Boolean = False
+
+
+        Dim num1 As Integer = 4
+        Dim num2 As Integer = 8
+        Dim answer As Double = Nothing
+        answer = num1 / num2
+        Console.WriteLine(answer)
         Console.ReadLine()
+
     End Sub
 End Module
